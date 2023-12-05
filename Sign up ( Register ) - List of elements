@@ -1,0 +1,16 @@
+Sign up
+    $x("//app-register//h4")  OR    $x("//h4 [text()='Sign up']")
+    $$('app-register h4')
+
+Username
+    $x("//input[@formcontrolname='username']") 
+    $("input#formcontrolname='username")
+
+email
+    $x("//input[@formcontrolname='email']")
+    
+
+Password
+    $x("//input[@id='defaultRegisterFormPassword']")
+    $("input#defaultRegisterFormPassword")
+
