@@ -8,7 +8,7 @@ Username
 
 email
     $x("//input[@formcontrolname='email']")
-    
+    $$("input[type='email']")
 
 Password
     $x("//input[@id='defaultRegisterFormPassword']")
