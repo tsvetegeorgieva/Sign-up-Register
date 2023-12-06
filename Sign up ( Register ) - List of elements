@@ -25,16 +25,20 @@ Body:
     Confirm password input: 
         #defaultRegisterPhonePassword
 
-    Sign in button: "
+    Sign in button: 
         "#sign-in-button"
 
 Footer:
     Version:
 
     Technologies
+        $x("//h6 [text()='Technologies:']")
 
     Logo1
+        $x("//img [@src='https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png']")
 
     Logo2
+        $x("//img [@src='https://cdn.worldvectorlogo.com/logos/angular-icon.svg']")
 
     Logo3
+        $x("//img [@src='https://d33wubrfki0l68.cloudfront.net/49c2be6f2607b5c12dd27f8ecc8521723447975d/f05c5/logo-small.cbbeba89.svg']")
