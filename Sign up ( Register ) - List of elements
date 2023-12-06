@@ -1,9 +1,15 @@
 Header:
     Home icon
+        $x("//img[@id='homeIcon']")
+        $("#homeIcon")
 
     Home
-
+        $x("//a[@id='nav-link-home']")
+        $("#nav-link-home")
+   
     Login
+        $x("//a[@id='nav-link-login']")
+        $("#nav-link-login")
 
 Body:
     Sign up
@@ -30,6 +36,7 @@ Body:
 
 Footer:
     Version:
+        $x("//footer//div[contains(text(),'Version:')]")
 
     Technologies
         $x("//h6 [text()='Technologies:']")
