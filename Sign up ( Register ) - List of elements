@@ -1,16 +1,40 @@
-Sign up
-    $x("//app-register//h4")  OR    $x("//h4 [text()='Sign up']")
-    $$('app-register h4')
+Header:
+    Home icon
 
-Username
-    $x("//input[@formcontrolname='username']") 
-    $("input#formcontrolname='username")
+    Home
 
-email
-    $x("//input[@formcontrolname='email']")
-    $$("input[type='email']")
+    Login
 
-Password
-    $x("//input[@id='defaultRegisterFormPassword']")
-    $("input#defaultRegisterFormPassword")
+Body:
+    Sign up
+        $x("//app-register//h4")  OR    $x("//h4 [text()='Sign up']")
+        $$('app-register h4')
 
+    Username
+        $x("//input[@formcontrolname='username']") 
+        $("input#formcontrolname='username")
+
+    email
+        $x("//input[@formcontrolname='email']")
+        $$("input[type='email']")
+
+    Password
+        $x("//input[@id='defaultRegisterFormPassword']")
+        $("input#defaultRegisterFormPassword")
+
+    Confirm password input: 
+        #defaultRegisterPhonePassword
+
+    Sign in button: "
+        "#sign-in-button"
+
+Footer:
+    Version:
+
+    Technologies
+
+    Logo1
+
+    Logo2
+
+    Logo3
