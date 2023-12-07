@@ -29,10 +29,10 @@ Body:
         $("input#defaultRegisterFormPassword")
 
     Confirm password input: 
-        #defaultRegisterPhonePassword
+        $(#defaultRegisterPhonePassword)
 
     Sign in button: 
-        "#sign-in-button"
+        $("#sign-in-button")
 
 Footer:
     Version:
